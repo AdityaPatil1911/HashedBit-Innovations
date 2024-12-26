@@ -1,0 +1,68 @@
+/* Center the form container */
+.booking-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Heading styles */
+  .booking-form-container h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styling */
+  .booking-form-container form {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Input fields */
+  .booking-form-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Input focus effect */
+  .booking-form-container input:focus {
+    border-color: #007bff;
+  }
+  
+  /* Submit button styling */
+  .booking-form-container button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Submit button hover effect */
+  .booking-form-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Add responsive design */
+  @media (max-width: 480px) {
+    .booking-form-container form {
+      width: 90%;
+    }
+  
+    .booking-form-container h1 {
+      font-size: 2rem;
+    }
+  }
+  

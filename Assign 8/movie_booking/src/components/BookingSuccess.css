@@ -1,0 +1,63 @@
+/* Container styling */
+.booking-success-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Heading styles */
+  .booking-success-container h1 {
+    font-size: 2.5rem;
+    color: #28a745;
+    margin-bottom: 20px;
+  }
+  
+  /* Paragraph styling */
+  .booking-success-container p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    line-height: 1.5;
+  }
+  
+  /* Strong text styling */
+  .booking-success-container p strong {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  /* Button styling */
+  .booking-success-container button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .booking-success-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Add responsiveness */
+  @media (max-width: 480px) {
+    .booking-success-container h1 {
+      font-size: 2rem;
+    }
+  
+    .booking-success-container p {
+      font-size: 1rem;
+    }
+  
+    .booking-success-container button {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+    }
+  }
+  
